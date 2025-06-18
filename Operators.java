@@ -85,3 +85,25 @@ OUTPUT:
 false
 true
 true
+
+
+//Bitwise - &(AND), |(OR), ^(XOR), ~(COMP)
+
+class Bit
+{
+public static void main(String[] args)
+{
+int a = 5, b = 8;
+
+System.out.println("a & b:" +(a & b));
+System.out.println("a | b:" +(a | b));
+System.out.println("a ^ b:" +(a ^ b));
+System.out.println("a ~ b:" +(~(b)));
+}
+}
+
+OUTPUT:
+a & b:0
+a | b:13
+a ^ b:13
+a ~ b:-9
