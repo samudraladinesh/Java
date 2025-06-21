@@ -39,6 +39,34 @@ System.out.println("Full Name: " + fullName);
 }
 }
 
-
 OUTPUT:
 Full Name: Dinesh Samudrala
+
+//Finding lenght of the string
+public class StringPrbml 
+{
+public static void main(String[] args) 
+{
+String name = "Dinesh Samudrala";
+int length = name.length();  
+System.out.println("The length of the string is: " + length);
+}
+}
+
+OUTPUT:
+The length of the string is: 16
+
+
+//Extract a string using substring
+public class StringPrbml 
+{
+public static void main(String[] args) 
+{
+String message = "Hello, World!";
+String sub = message.substring(7); 
+System.out.println("Substring: " + sub);
+}
+}
+
+OUTPUT:
+Substring: World!
